@@ -46,66 +46,70 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-h2{
-    font-size: 28px;
+body{
     color: white;
-    text-align: center;
-    text-transform: uppercase;
-}
-.link{
-    text-align: center;
-    margin:10px;
-}
-a{
-    text-transform: uppercase;
-    color: white;
-    text-decoration: none;
-    padding: 10px;
-    
-}
-header{
-    background-color: black;
-    height:400px;
+    line-height: 1.5;
 }
 h1{
     font-size: 36px;
-    color: white;
-    margin: 50px;
     text-transform: uppercase;
+    padding-top: 40px;
+}
+h2{
+    font-size: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+h3{
+    font-size: 24px;
+    text-transform: uppercase;
+}
+h4{
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.header{
+    text-align: center;
+    background-color: black;
+}
+.header a{
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    margin:0 16px;
+    
 }
 .para{
     color: grey;
     font-size: 20px;
-    margin-top:50px; 
-    margin-bottom: 100px; 
+    /* margin-top:50px; 
+    margin-bottom: 100px;  */
+    padding : 40px 0;
 }
 .test-img{
     height: 250px;
     width: 250px;
     border-radius: 50%;
     margin-top: 20px;
-
+    -o-object-fit: cover;
+    object-fit: cover;
 }
-h3{
-    color: white;
-    font-size: 24px;
-    text-transform: uppercase;
+.hero{
+    background-color: black;
+}
+.content{
+    width: 1160px;
+    margin: 0 auto;
 }
 article{
-    height: 500px;
-    line-height: 1.5;
-    padding: 20px;
-    margin: 0 auto;
+    height: 600px;
+    line-height: 2;
+    /* padding: 0 200px; */
 }
 .paragraph{
     margin-top:20px ;
-color: white;
-}
-h4{
-    text-transform: uppercase;
-    color: white;
-    font-size: 20px;
-    margin-top: 10px;
 }
 hr{
     margin-top: 20px;
@@ -117,11 +121,12 @@ hr{
     background-color: #45558e;
 }
 .blog3{
-background-color: #3f4e85;
+    background-color: #3f4e85;
 }
-footer{
+.footer{
     background-color: #2e3040;
-    padding: 30px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 
