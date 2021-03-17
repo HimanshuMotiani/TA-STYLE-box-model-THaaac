@@ -48,11 +48,14 @@ table {
 }
 h1{
     font-size: 36px;
+    text-align: center;
+    padding: 32px 100px;
 }
 body{
 text-align: center;
 margin: 0 auto;
-width: 800px;
+width: 600px;
+line-height: 1.5;
 }
 h3{
     font-size: 20px;
@@ -78,9 +81,12 @@ p{
 .types{
     width: 10px;
     height: 10px;
-    margin-right: 4px;
-    display: inline-block;
     border-radius: 50%;
+    display: inline-block;
+}
+.marker{
+    display: inline-block;
+    margin: 0 16px;
 }
 .context{
     background-color: greenyellow;
@@ -97,25 +103,25 @@ p{
 .parent{
     width: 600px;
     background-color: white;
-    display: inline-block;
     border: 1px solid black; 
+    margin: 24px auto;
+    font-size: 0;
 }
 .child{
     width: 180px;
     height: 100px;
     background-color: gray;
     display: inline-block;
-    margin-top:10px
+    margin: 10px;
 }
 .with-border{
     border: 1px solid black;
 }
-.block{
-    width: 180px;
-    height: 100px;
-    background-color: gray;
-    display: block;
-}
 hr{
     margin:40px;
+    width: 500px;
+    border-style: dashed;
+}
+.border-box{
+    box-sizing: border-box;
 }
