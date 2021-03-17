@@ -53,28 +53,23 @@ font-size: 24px;
     height: 150px;
     width: 150px;
     background-color: #b22e25;
-    margin: 10px;
+    margin: 30px;
+    display: inline-block;
     
 }
-.box1{
+.solid{
     border: 5px solid black;
 }
-.box2{
+.double{
     border: 5px double black;
-    display: inline-block;
 }
-.box3{
+.dashed{
     border: 5px dashed black;
-    display: inline-block;
 }
-.box4{
+.dotted{
     border: 5px dotted black;
-    display: inline-block;
 }
-.box5{
-    display: inline-block;
-}
-.box6{
+.para{
     height: 400px;
     width: 400px;
     background-color: red;
@@ -83,8 +78,14 @@ font-size: 24px;
     border-left: 20px solid green;
     border-bottom: 20px solid yellow;
     border-right: 20px solid grey;
-    margin: 40px;
-    outline: 20px solid purple; 
+    /* outline: 20px solid purple;  */
     line-height: 1.5;
-
+    color: white;
 }
+.para-container{
+background-color: purple;
+display: inline-block;
+padding: 16px 16px;
+margin: 32px;
+}
+
