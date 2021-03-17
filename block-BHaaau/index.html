@@ -36,11 +36,24 @@
                 <div class="inside-box"></div>
             </div>
             <div>
-                <span class="types context"></span><span>Context</span>
-                <span class="types padding"></span><span>Padding</span>
-                <span class="types border"></span><span>Border</span>
-                <span class="types margin"></span><span>Margin</span>
+                <div class="marker"> 
+                    <span class="types context"></span>
+                    <span>Context</span>
+                </div>
+                <div class="marker">
+                    <span class="types padding"></span>
+                    <span>Padding</span>
+                </div>
+                <div class="marker">
+                    <span class="types border"></span>
+                    <span>Border</span>
+                </div>
+                <div class="marker">
+                    <span class="types margin"></span>
+                    <span>Margin</span>
+                </div> 
             </div>
+        
         </section>
         <hr>
         <section>
@@ -51,6 +64,7 @@
                 <div class="child"></div>
                 <div class="child"></div>
             </div>
+            
         </section>
         <hr>
         <section>
@@ -58,16 +72,14 @@
             <div class="parent">
                 <div class="child with-border "></div>
                 <div class="child with-border"></div>
-                <div class="block with-border"></div>
+                <div class="child with-border"></div>
             </div>
-        </section>
         <hr>
-        <section>
             <p>1px border on these boxes but they are same line</p>
             <div class="parent">
-                <div class="child with-border"></div>
-                <div class="child with-border"></div>
-                <div class="child with-border"></div>
+                <div class="child with-border border-box"></div>
+                <div class="child with-border border-box"></div>
+                <div class="child with-border border-box"></div>
             </div>
         </section>
     </main>
